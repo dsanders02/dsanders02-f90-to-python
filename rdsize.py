@@ -10,5 +10,5 @@ for line in sys.stdin:
     count, size = line.split(maxsplit=1)
     total_size += int(count) * int(size)
     num_lines += 1 
-    print(count, size)
+   # print(count, size)
 print(num_lines, total_size)
